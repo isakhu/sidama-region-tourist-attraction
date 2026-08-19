@@ -1,0 +1,64 @@
+name: hawassa_sidama_tour
+description: A tour and event app for Hawassa-Sidama region with multilingual support
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Dependencies - packages our app needs to work
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Supabase for backend services (authentication, database, storage)
+  supabase_flutter: ^2.0.0
+  
+  # State management - helps manage app data efficiently
+  provider: ^6.1.1
+  
+  # Internationalization - for multiple language support
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  
+  # UI enhancements
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.0
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  
+  # Image picker for uploading photos
+  image_picker: ^1.0.5
+  
+  # URL launcher for external links
+  url_launcher: ^6.2.1
+  
+  # Date formatting
+  timeago: ^3.6.0
+  
+  # Google Maps integration
+  google_maps_flutter: ^2.5.0
+  
+  # Location services
+  geolocator: ^10.1.0
+  
+  # Permissions
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets - images, icons, and other files
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # Enable generation of localization files
+  generate: true
