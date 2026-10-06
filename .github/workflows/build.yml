@@ -23,6 +23,9 @@ jobs:
       with:
         channel: 'stable'
 
+    - name: Generate platform folders
+      run: flutter create .
+
     - name: Install dependencies
       run: flutter pub get
 
