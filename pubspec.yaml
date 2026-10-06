@@ -20,7 +20,7 @@ dependencies:
   # Internationalization - for multiple language support
   flutter_localizations:
     sdk: flutter
-  intl: ^0.18.1
+  intl: ^0.20.3
   
   # UI enhancements
   google_fonts: ^6.1.0
